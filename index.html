@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-compatible" content= "IE=edge">
+	<meta name="viewport" content="width=device=width, initial-scale=1.0">
+	<title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c20c0dce4c.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+<div id="header">
+    <div class = "container">
+        <nav>
+            <img src="Images/logo-no-background.png" class="logo-no-background">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h1><span1 id="rotate_word">Hello</span1> 👋🏻, <br> I'm <span> Bharath Simha</span>, and I'm a 
+                <div class = "slidingVertical">
+                    <span> Data Scientist</span>
+                    <span> Data Analyst</span>
+                    <span> ML Engineer</span>
+                    <span> Tableau Analyst</span>
+                </div>
+            </h1>
+        </div>
+    </div>
+</div>
+<!------------about------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/Graduation.JPG">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="para">I am a recent Data Science graduate from the University of Bristol. 
+                    I am a highly skilled data scientist with a passion for leveraging data to drive business insights and improve decision-making processes.
+                    Apart from my technical skills, I have exceptional teamwork, communication, and collaboration skills, having worked effectively in team environments and delivered successful results.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Technical Skills')">Technical Skills</p>
+                    <p class="tab-links" onclick="opentab('Soft Skills')">Soft Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Technical Skills">
+                    <ul>
+                        <li><span>Machine Learning</span></li>
+                        <li><span>Statistical Analyis</span></li>
+                        <li><span>Natural Language Processing</span></li>
+                        <li><span>Data Analysis</span></li>
+                        <li><span>Data Visualisation</span></li>
+                        <li><span>Data Cleaning</span></li>
+                        <li><span>Processing Large Data Sets</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Soft Skills">
+                    <ul>
+                        <li><span>Communication</span></li>
+                        <li><span>Team Player</span></li>
+                        <li><span>Critical Thinking</span></li>
+                        <li><span>Storytelling</span></li>
+                        <li><span>Critical Thinking</span></li>
+                        <li><span>Adapatability</span></li>
+                        <li><span>Business Sense</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>ZeoMinds IT Solutions (Jan 2020 - June 2020)</span><br>Intern Data Scientist</li>
+                        <li><span>Lloyds Banking Group (Jan 2022 - May 2022) </span><br>Data Science Consultant</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        
+                        <li><span>University of Bristol (Sep 2021 - Sep 2022)</span><br>Master of Science - MSc, Data Science</li>
+                        <li><span>GITAM Deemed University (June 2017 - May 2021)</span><br>Bachelor of Technology - BTech, Computer Science</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------projects------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/coronavirus-2.tmb-1920v.jpg">
+                <div class="layer">
+                    <h2>Covid - 19 Future Forecasting</h2>
+                    <p class="para2">The project predicts the quanitty of upcoming patients 
+                        affected by COVID - 19 using Machine Learning Models</p>
+                    <a href="https://github.com/BharathSimhaK/Covid-19-Future-Forecasting-Using-Supervised-Machine-Learning-Models"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/semi-pixelated.jpg">
+                <div class="layer">
+                    <h2>Covid - 19 Future Forecasting</h2>
+                    <p class="para2">The project predicts the quanitty of upcoming patients affected by COVID - 19 using Machine Learning Models</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+           
+        </div>
+        <!----<a href="#/" class="btn">See More</a>---->
+    </div>
+</div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!---------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p class="para"><i class="fa-solid fa-paper-plane"></i> bharathsimhakarumudi@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 07825432516</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/bharath-simha"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/bharath____simha/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/RoronoaLevi69"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="Images/Bharath Simha Karumudi CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="7" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+}
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyaBqNeI5yuJhuda5biIzPB873ZpW_TzZ-NhWlplhXKIO0flF6ZunZ1xjJF0Jhq4lsUiQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+</script>
+<script>
+var words = ['¡Hola!',"Bonjour!","Hallo!","Ciao!","Olá!","こんにちは","नमस्ते","你好"]
+var count = 0;
+
+changeWord(); // Call the changeWord function
+setInterval(changeWord, 2550); // Call it every 3 seconds
+
+function changeWord() {
+
+    // Define the word to create
+    var current_word = words[count];
+    console.log(current_word);
+
+    // Change the word in the HTML
+    $("#rotate_word").fadeOut(500, function() {
+
+// Change the word in the HTML
+        $("#rotate_word").html(current_word);
+
+// Fade in the new word
+        $("#rotate_word").fadeIn(500);
+});
+
+    // Get the next word index in the array
+    count++;
+
+    // If we've reached the end of the word list, go back to the start
+    if (count == words.length) { count = 0; }
+}
+</script>
+</body>
+</html>
